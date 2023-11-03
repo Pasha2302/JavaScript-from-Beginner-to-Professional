@@ -1,5 +1,6 @@
 let status = "new";
 let scared = true;
+
 if (status === "new") {
   console.log("Welcome to JavaScript!");
   if (scared) {
@@ -7,7 +8,8 @@ if (status === "new") {
   } else {
     console.log("You're brave! You are going to do great!");
   }
-} else {
+}
+else {
   console.log("Welcome back, I new you'd like it!");
 }
 
